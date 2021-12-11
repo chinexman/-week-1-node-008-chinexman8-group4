@@ -129,7 +129,7 @@ export async function postPatientSignUp(req: Request, res: Response): Promise<vo
         }
       }
     }
-  }catch(err){
+  }catch(err: any){
     res.send(err.message)
   }
 }

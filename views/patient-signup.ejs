@@ -20,7 +20,8 @@
                         <% hospitals.map(hospital => { %>
                           <option><%= hospital.name %></option>
                         <% }) %>
-
+                        <option value="0" selected="selected">Select Hospital...</option>
+                        <option value="0" selected="selected">Tomis test</option>
                     </select>
                     <input class="un" type="text" placeholder="Patients Name" required name="name">
                     <input class="un" type="date" placeholder="DOB" required name="dateOfBirth">
